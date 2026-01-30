@@ -9,6 +9,26 @@ This project is about **epistemic rigor**, not vibes.
 
 ---
 
+## ⚡ Quick Start (Get Running in 2 Minutes)
+
+```bash
+# 1. Clone and install
+git clone https://github.com/bbfcfmars/AXiOM.git
+cd AXiOM
+npm install
+
+# 2. Set up your API key
+cp .env.example .env
+# Edit .env and add your Gemini API key from https://aistudio.google.com/apikey
+
+# 3. Run the development server
+npm run dev
+```
+
+Then open **http://localhost:3000** in your browser. That's it! 🚀
+
+---
+
 ## 1. Product Definition
 
 ### What Axiom-One Does
@@ -206,8 +226,8 @@ This repository contains the **Frontend** implementation using React and Vite.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/axiom-one.git
-    cd axiom-one
+    git clone https://github.com/bbfcfmars/AXiOM.git
+    cd AXiOM
     ```
 
 2.  **Install dependencies:**
@@ -216,15 +236,20 @@ This repository contains the **Frontend** implementation using React and Vite.
     ```
 
 3.  **Configure Environment:**
-    Create a `.env` file in the root directory and add your API Key:
-    ```env
-    GEMINI_API_KEY=your_gemini_api_key_here
+    Copy the example environment file and add your Gemini API key:
+    ```bash
+    cp .env.example .env
     ```
+    Then edit `.env` and replace `your_gemini_api_key_here` with your actual API key.
+    
+    > 💡 **Get your free API key:** https://aistudio.google.com/apikey
 
 4.  **Run the Development Server:**
     ```bash
     npm run dev
     ```
+    
+    The app will be available at **http://localhost:3000**
 
 ---
 
